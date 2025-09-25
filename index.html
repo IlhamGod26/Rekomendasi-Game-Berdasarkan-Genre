@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+v<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -17,6 +17,7 @@
         <li class="nav-item"><a href="#kontak" class="nav-link">Kontak</a></li>
       </ul>
     </nav>
+    <button id="darkModeToggle" class="btn btn-primary">Toggle Dark Mode</button>
   </header>
 
   <main class="main">
@@ -27,6 +28,12 @@
 
     <section id="genre" class="section">
       <h2 class="section-title">Genre Game</h2>
+      <div class="filter-buttons">
+        <button class="btn btn-primary filter-btn" data-genre="all">All</button>
+        <button class="btn btn-primary filter-btn" data-genre="fps">FPS</button>
+        <button class="btn btn-primary filter-btn" data-genre="moba">MOBA</button>
+        <button class="btn btn-primary filter-btn" data-genre="rpg">RPG</button>
+      </div>
       <ul class="genre-list">
         <li class="genre-item"><a href="#fps" class="nav-link">FPS</a></li>
         <li class="genre-item"><a href="#moba" class="nav-link">MOBA</a></li>
@@ -171,5 +178,6 @@
       <a href="https://dribbble.com/tags/game_website" target="_blank" class="nav-link">Dribbble - Game Website</a>
     </p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
